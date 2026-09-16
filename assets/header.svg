@@ -1,25 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Snowwit — A curious mind, a work in progress. Technology, history and writing.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Snowwit — A curious mind. A work in progress.</title>
+<desc id="desc">A midnight-blue digital study. Ivory typography sits beside a moon surrounded by curved lines of words: read, think, write, make.</desc>
 <defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#091523"/><stop offset="1" stop-color="#172f46"/></linearGradient>
- <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#c6eeff" stop-opacity=".24"/><stop offset="1" stop-color="#c6eeff" stop-opacity="0"/></linearGradient>
- <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#c6eeff" stroke-opacity=".035"/></pattern>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1520"/><stop offset="1" stop-color="#172d3c"/></linearGradient>
+ <radialGradient id="moon" cx="32%" cy="28%" r="80%"><stop stop-color="#f5eedb"/><stop offset=".6" stop-color="#d8d5c6"/><stop offset="1" stop-color="#8fa5a4"/></radialGradient>
+ <path id="orbit" d="M 856 89 A 171 171 0 1 1 855.9 89"/>
 </defs>
-<rect width="1200" height="420" rx="20" fill="url(#bg)"/>
-<rect width="1200" height="420" rx="20" fill="url(#grid)"/>
-<circle cx="1000" cy="107" r="54" fill="none" stroke="#8cbacf" stroke-opacity=".22"/>
-<circle cx="1000" cy="107" r="37" fill="none" stroke="#8cbacf" stroke-opacity=".12"/>
-<path d="M708 345L875 123L964 252L1040 174L1190 345Z" fill="url(#ice)"/>
-<path d="M708 345L875 123L964 252L1040 174L1190 345" fill="none" stroke="#a9def2" stroke-opacity=".45" stroke-width="1.5"/>
-<path d="M842 167L875 123L917 184L883 164L869 177Z" fill="#d7f5ff" fill-opacity=".65"/>
-<path d="M803 345L896 227L939 283L1001 229L1094 345" fill="none" stroke="#a9def2" stroke-opacity=".15"/>
+<rect width="1200" height="520" rx="18" fill="url(#bg)"/>
+<g fill="none" stroke="#a9c6cb" opacity=".15"><path d="M48 72H1152M48 446H1152"/><path d="M675 102V415"/></g>
 <g font-family="Arial, Helvetica, sans-serif">
-<text x="66" y="70" fill="#89afc4" font-size="13" letter-spacing="4">SNOWWIT / PERSONAL WORKSPACE</text>
-<text x="62" y="180" fill="#f0f8ff" font-size="90" font-weight="700" letter-spacing="-4">Snowwit<tspan fill="#91d7ed">.</tspan></text>
-<text x="66" y="230" fill="#d3e6f1" font-size="27">A curious mind.</text>
-<text x="66" y="276" fill="#8fabbc" font-size="17">Technology, history &amp; the things we make.</text>
-<line x1="66" y1="329" x2="1134" y2="329" stroke="#93c3d7" stroke-opacity=".18"/>
-<circle cx="71" cy="371" r="4" fill="#91d7ed"/>
-<text x="86" y="376" fill="#adc6d4" font-size="13" letter-spacing="2">READ. THINK. MAKE. REPEAT.</text>
-<text x="1134" y="376" text-anchor="end" fill="#7595a9" font-size="13" letter-spacing="1">GITHUB / SNOWWIT88</text>
+ <text x="48" y="45" fill="#a8c2c9" font-size="13" letter-spacing="3">SNOWWIT / THE DIGITAL STUDY</text>
+ <text x="1152" y="45" text-anchor="end" fill="#a8c2c9" font-size="12" letter-spacing="2">OPEN NOTEBOOK · 01</text>
+ <text x="45" y="218" fill="#f4efdf" font-size="108" font-weight="700" letter-spacing="-6">Snowwit<tspan fill="#9ccacb">.</tspan></text>
+ <text x="51" y="279" fill="#d0dce0" font-size="28">A curious mind.</text>
+ <text x="51" y="321" fill="#d0dce0" font-size="28">A work in progress.</text>
+ <text x="51" y="390" fill="#9bb1bd" font-size="16" letter-spacing=".4">On technology, history &amp; the things we make.</text>
+ <circle cx="902" cy="260" r="119" fill="none" stroke="#89a6ae" opacity=".16"/>
+ <circle cx="856" cy="260" r="112" fill="url(#moon)"/>
+ <path d="M880 151a112 112 0 0 1 0 218c69-56 69-161 0-218" fill="#6d9198" opacity=".15"/>
+<text x="856.00" y="97.00" transform="rotate(0.00 856.00 97.00)" text-anchor="middle" fill="#a8c2c9" font-size="14">R</text>
+<text x="878.69" y="98.59" transform="rotate(8.00 878.69 98.59)" text-anchor="middle" fill="#a8c2c9" font-size="14">E</text>
+<text x="900.93" y="103.31" transform="rotate(16.00 900.93 103.31)" text-anchor="middle" fill="#a8c2c9" font-size="14">A</text>
+<text x="922.30" y="111.09" transform="rotate(24.00 922.30 111.09)" text-anchor="middle" fill="#a8c2c9" font-size="14">D</text>
+<text x="942.38" y="121.77" transform="rotate(32.00 942.38 121.77)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="960.77" y="135.13" transform="rotate(40.00 960.77 135.13)" text-anchor="middle" fill="#a8c2c9" font-size="14">·</text>
+<text x="977.13" y="150.93" transform="rotate(48.00 977.13 150.93)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="991.13" y="168.85" transform="rotate(56.00 991.13 168.85)" text-anchor="middle" fill="#a8c2c9" font-size="14">T</text>
+<text x="1002.50" y="188.55" transform="rotate(64.00 1002.50 188.55)" text-anchor="middle" fill="#a8c2c9" font-size="14">H</text>
+<text x="1011.02" y="209.63" transform="rotate(72.00 1011.02 209.63)" text-anchor="middle" fill="#a8c2c9" font-size="14">I</text>
+<text x="1016.52" y="231.70" transform="rotate(80.00 1016.52 231.70)" text-anchor="middle" fill="#a8c2c9" font-size="14">N</text>
+<text x="1018.90" y="254.31" transform="rotate(88.00 1018.90 254.31)" text-anchor="middle" fill="#a8c2c9" font-size="14">K</text>
+<text x="1018.11" y="277.04" transform="rotate(96.00 1018.11 277.04)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="1014.16" y="299.43" transform="rotate(104.00 1014.16 299.43)" text-anchor="middle" fill="#a8c2c9" font-size="14">·</text>
+<text x="1007.13" y="321.06" transform="rotate(112.00 1007.13 321.06)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="997.16" y="341.50" transform="rotate(120.00 997.16 341.50)" text-anchor="middle" fill="#a8c2c9" font-size="14">W</text>
+<text x="984.45" y="360.35" transform="rotate(128.00 984.45 360.35)" text-anchor="middle" fill="#a8c2c9" font-size="14">R</text>
+<text x="969.23" y="377.25" transform="rotate(136.00 969.23 377.25)" text-anchor="middle" fill="#a8c2c9" font-size="14">I</text>
+<text x="951.81" y="391.87" transform="rotate(144.00 951.81 391.87)" text-anchor="middle" fill="#a8c2c9" font-size="14">T</text>
+<text x="932.52" y="403.92" transform="rotate(152.00 932.52 403.92)" text-anchor="middle" fill="#a8c2c9" font-size="14">E</text>
+<text x="911.75" y="413.17" transform="rotate(160.00 911.75 413.17)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="889.89" y="419.44" transform="rotate(168.00 889.89 419.44)" text-anchor="middle" fill="#a8c2c9" font-size="14">·</text>
+<text x="867.37" y="422.60" transform="rotate(176.00 867.37 422.60)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="844.63" y="422.60" transform="rotate(184.00 844.63 422.60)" text-anchor="middle" fill="#a8c2c9" font-size="14">M</text>
+<text x="822.11" y="419.44" transform="rotate(192.00 822.11 419.44)" text-anchor="middle" fill="#a8c2c9" font-size="14">A</text>
+<text x="800.25" y="413.17" transform="rotate(200.00 800.25 413.17)" text-anchor="middle" fill="#a8c2c9" font-size="14">K</text>
+<text x="779.48" y="403.92" transform="rotate(208.00 779.48 403.92)" text-anchor="middle" fill="#a8c2c9" font-size="14">E</text>
+<text x="760.19" y="391.87" transform="rotate(216.00 760.19 391.87)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="742.77" y="377.25" transform="rotate(224.00 742.77 377.25)" text-anchor="middle" fill="#a8c2c9" font-size="14">·</text>
+<text x="727.55" y="360.35" transform="rotate(232.00 727.55 360.35)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="714.84" y="341.50" transform="rotate(240.00 714.84 341.50)" text-anchor="middle" fill="#a8c2c9" font-size="14">S</text>
+<text x="704.87" y="321.06" transform="rotate(248.00 704.87 321.06)" text-anchor="middle" fill="#a8c2c9" font-size="14">T</text>
+<text x="697.84" y="299.43" transform="rotate(256.00 697.84 299.43)" text-anchor="middle" fill="#a8c2c9" font-size="14">A</text>
+<text x="693.89" y="277.04" transform="rotate(264.00 693.89 277.04)" text-anchor="middle" fill="#a8c2c9" font-size="14">Y</text>
+<text x="693.10" y="254.31" transform="rotate(272.00 693.10 254.31)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="695.48" y="231.70" transform="rotate(280.00 695.48 231.70)" text-anchor="middle" fill="#a8c2c9" font-size="14">C</text>
+<text x="700.98" y="209.63" transform="rotate(288.00 700.98 209.63)" text-anchor="middle" fill="#a8c2c9" font-size="14">U</text>
+<text x="709.50" y="188.55" transform="rotate(296.00 709.50 188.55)" text-anchor="middle" fill="#a8c2c9" font-size="14">R</text>
+<text x="720.87" y="168.85" transform="rotate(304.00 720.87 168.85)" text-anchor="middle" fill="#a8c2c9" font-size="14">I</text>
+<text x="734.87" y="150.93" transform="rotate(312.00 734.87 150.93)" text-anchor="middle" fill="#a8c2c9" font-size="14">O</text>
+<text x="751.23" y="135.13" transform="rotate(320.00 751.23 135.13)" text-anchor="middle" fill="#a8c2c9" font-size="14">U</text>
+<text x="769.62" y="121.77" transform="rotate(328.00 769.62 121.77)" text-anchor="middle" fill="#a8c2c9" font-size="14">S</text>
+<text x="789.70" y="111.09" transform="rotate(336.00 789.70 111.09)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+<text x="811.07" y="103.31" transform="rotate(344.00 811.07 103.31)" text-anchor="middle" fill="#a8c2c9" font-size="14">·</text>
+<text x="833.31" y="98.59" transform="rotate(352.00 833.31 98.59)" text-anchor="middle" fill="#a8c2c9" font-size="14"> </text>
+ <path d="M1061 263h22m-11-11v22" stroke="#ccb992" stroke-width="1.5"/>
+ <circle cx="729" cy="131" r="2" fill="#ccb992"/>
+ <text x="48" y="482" fill="#a8c2c9" font-size="12" letter-spacing="2.4">LESS NOISE. MORE THOUGHT.</text>
+ <text x="1152" y="482" text-anchor="end" fill="#a8c2c9" font-size="12" letter-spacing="2">SNOWWIT88 / GITHUB</text>
 </g>
 </svg>
