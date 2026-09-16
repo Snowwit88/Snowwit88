@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Snowwit — A curious mind, a work in progress. Technology, history and writing.">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#091523"/><stop offset="1" stop-color="#172f46"/></linearGradient>
+ <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#c6eeff" stop-opacity=".24"/><stop offset="1" stop-color="#c6eeff" stop-opacity="0"/></linearGradient>
+ <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#c6eeff" stroke-opacity=".035"/></pattern>
+</defs>
+<rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="20" fill="url(#grid)"/>
+<circle cx="1000" cy="107" r="54" fill="none" stroke="#8cbacf" stroke-opacity=".22"/>
+<circle cx="1000" cy="107" r="37" fill="none" stroke="#8cbacf" stroke-opacity=".12"/>
+<path d="M708 345L875 123L964 252L1040 174L1190 345Z" fill="url(#ice)"/>
+<path d="M708 345L875 123L964 252L1040 174L1190 345" fill="none" stroke="#a9def2" stroke-opacity=".45" stroke-width="1.5"/>
+<path d="M842 167L875 123L917 184L883 164L869 177Z" fill="#d7f5ff" fill-opacity=".65"/>
+<path d="M803 345L896 227L939 283L1001 229L1094 345" fill="none" stroke="#a9def2" stroke-opacity=".15"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="66" y="70" fill="#89afc4" font-size="13" letter-spacing="4">SNOWWIT / PERSONAL WORKSPACE</text>
+<text x="62" y="180" fill="#f0f8ff" font-size="90" font-weight="700" letter-spacing="-4">Snowwit<tspan fill="#91d7ed">.</tspan></text>
+<text x="66" y="230" fill="#d3e6f1" font-size="27">A curious mind.</text>
+<text x="66" y="276" fill="#8fabbc" font-size="17">Technology, history &amp; the things we make.</text>
+<line x1="66" y1="329" x2="1134" y2="329" stroke="#93c3d7" stroke-opacity=".18"/>
+<circle cx="71" cy="371" r="4" fill="#91d7ed"/>
+<text x="86" y="376" fill="#adc6d4" font-size="13" letter-spacing="2">READ. THINK. MAKE. REPEAT.</text>
+<text x="1134" y="376" text-anchor="end" fill="#7595a9" font-size="13" letter-spacing="1">GITHUB / SNOWWIT88</text>
+</g>
+</svg>
