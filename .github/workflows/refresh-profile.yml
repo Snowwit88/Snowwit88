@@ -1,0 +1,33 @@
+name: Refresh profile visuals
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * *'
+  push:
+    branches: [profile-effects-preview]
+    paths: ['scripts/**', 'content/sources.json', '.github/workflows/refresh-profile.yml']
+permissions:
+  contents: write
+concurrency:
+  group: profile-refresh-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Validate generators
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Refresh public data
+        run: python3 scripts/refresh.py
+      - name: Commit changed visuals
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/contribution-snake.svg README.md README.en.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh public profile data'
+            git push
+          fi

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="86" viewBox="0 0 1000 86" role="img" aria-labelledby="title">
+<title id="title">保持好奇。阅读世界。动手创造。</title>
+<style>
+text {fill:#315965;font-family:Arial,'PingFang SC','Microsoft YaHei',sans-serif;font-size:28px;letter-spacing:4px}
+.line{opacity:0;animation:show 15s infinite}.two{animation-delay:5s}.three{animation-delay:10s}
+.reveal{animation:type 5s steps(5,end) infinite}.cursor{fill:#638c8f;animation:blink 1s steps(1,end) infinite}
+@keyframes show{0%,32%{opacity:1}33%,100%{opacity:0}} @keyframes type{0%{width:0}45%,85%{width:160px}100%{width:0}}
+@keyframes blink{50%{opacity:0}}
+@media(prefers-color-scheme:dark){text{fill:#c5d9dc}.cursor{fill:#a8c2c9}}
+@media(prefers-reduced-motion:reduce){.line{animation:none}.one{opacity:1}.reveal{animation:none;width:160px}.cursor{animation:none}}
+</style><defs><clipPath id="reveal"><rect class="reveal" x="417" y="0" width="160" height="86"/></clipPath></defs>
+<g clip-path="url(#reveal)"><text class="line one" x="420" y="54">保持好奇。</text><text class="line two" x="420" y="54">阅读世界。</text><text class="line three" x="420" y="54">动手创造。</text></g><rect class="cursor" x="583" y="30" width="2" height="27"/>
+</svg>
