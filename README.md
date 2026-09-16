@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Snowwit · 数字书房 — 保持好奇，持续创作。阅读、思考、写作与制作。" width="100%" />
+  <img src="./assets/header-animated.svg" alt="Snowwit · 数字书房 — 保持好奇，持续创作。阅读、思考、写作与制作。" width="100%" />
 </p>
 
 <p align="center">
